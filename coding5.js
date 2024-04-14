@@ -7,10 +7,10 @@ const shoppingList = (groceries) => {
 };
 
 let groceries = [
-  { item: "Carrots", quantity: 4 },
-  { item: "Hummus", quantity: 6 },
-  { item: "Pesto", quantity: 33 },
-  { item: "Rigatoni", quantity: 2 },
+  { item: "Milk", quantity:"4 ltrs" },
+  { item: "Rice", quantity:"20 kgs" },
+  { item: "Oils", quantity:"10 ltrs" },
+  { item: "Meat", quantity:"30 kgs" },
 ];
 
 console.log(shoppingList(groceries));
